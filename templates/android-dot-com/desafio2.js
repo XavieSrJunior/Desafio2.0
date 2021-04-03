@@ -15,4 +15,4 @@ Ednona.addEventListener("click", function(){
 	  'eventLabel': ' ednona '
 	});
 
-})
+});
