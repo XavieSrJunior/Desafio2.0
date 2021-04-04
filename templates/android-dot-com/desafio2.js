@@ -102,7 +102,7 @@ play.addEventListener("click", function(){
 
 //--final do tageamento do campo header--//
 
-var androidWear = document.querySelectorAll('.android-screen-image')[0]
+var androidWear = document.querySelector('.android-wear.android-screen')
 
 androidWear.addEventListener("click", function(){
 
