@@ -101,3 +101,73 @@ play.addEventListener("click", function(){
 });
 
 //--final do tageamento do campo header--//
+
+var androidWear = document.querySelectorAll('.android-wear.android-screen')
+
+androidWear.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:powering_screen_of_all_sizes',
+		'eventAction': 'clique:banner',
+		'eventLabel': 'androidWear'
+	});
+});
+
+var phones = document.querySelector('.android-phone.android-screen');
+
+
+phones.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:powering_screen_of_all_sizes',
+		'eventAction': 'clique:banner',
+		'eventLabel': 'phones'
+	});
+});
+
+var tablets = document.querySelector('.android-tablet.android-screen');
+
+
+tablets.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:powering_screen_of_all_sizes',
+		'eventAction': 'clique:banner',
+		'eventLabel': 'tablets'
+	});
+});
+
+var android_tv = document.querySelector('.android-tv.android-screen');
+
+
+android_tv.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:powering_screen_of_all_sizes',
+		'eventAction': 'clique:banner',
+		'eventLabel': 'android_tv'
+	});
+});
+
+var coming_soon = document.querySelector('.android-auto.android-screen');
+
+
+coming_soon.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:powering_screen_of_all_sizes',
+		'eventAction': 'clique:banner',
+		'eventLabel': 'coming_soon'
+	});
+});
+//--final do tageamento powering_screens_of_all_sizes--//
