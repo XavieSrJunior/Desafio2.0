@@ -171,3 +171,19 @@ coming_soon.addEventListener("click", function(){
 	});
 });
 //--final do tageamento powering_screens_of_all_sizes--//
+
+var see_whats_new_in_the_play_store = document.querySelector('.mdl-typography--font-regular.mdl-typography--text-uppercase.android-alt-link');
+
+see_whats_new_in_the_play_store.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'the_best_of_google_built_in:the_best_of_google_built_in',
+		'eventAction': 'clique:banner',
+		'eventLabel': 'see_whats_new_in_the_play_store'
+	});
+});
+
+//--final da sessão see_what's_new_in_the_google_built_in--//
+
