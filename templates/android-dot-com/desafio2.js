@@ -101,18 +101,3 @@ play.addEventListener("click", function(){
 });
 
 //--final do tageamento do campo header--//
-
-var androidWear = document.querySelector('.android-wear.android-screen')
-
-androidWear.addEventListener("click", function(){
-
-	window.dataLayer = window.dataLayer || [];
-	window.dataLayer.push({
-		'event': 'generic-event',
-		'eventCategory': 'android:powering_screen_of_all_sizes',
-		'eventAction': 'clique:banner',
-		'eventLabel': 'androidWear'
-	});
-});
-
-var
