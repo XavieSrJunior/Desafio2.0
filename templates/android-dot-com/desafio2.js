@@ -102,7 +102,7 @@ play.addEventListener("click", function(){
 
 //--final do tageamento do campo header--//
 
-var androidWear = document.querySelectorAll('.android-wear.android-screen')
+var androidWear = document.querySelector('.android-wear.android-screen')
 
 androidWear.addEventListener("click", function(){
 
@@ -115,16 +115,4 @@ androidWear.addEventListener("click", function(){
 	});
 });
 
-var phones = document.querySelector('.android-phone.android-screen');
-
-
-phones.addEventListener("click", function(){
-
-	window.dataLayer = window.dataLayer || [];
-	window.dataLayer.push({
-		'event': 'generic-event',
-		'eventCategory': 'android:powering_screen_of_all_sizes',
-		'eventAction': 'clique:banner',
-		'eventLabel': 'phones'
-	});
-});
+var
