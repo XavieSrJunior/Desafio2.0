@@ -102,7 +102,7 @@ play.addEventListener("click", function(){
 
 //--final do tageamento do campo header--//
 
-var androidWear = document.querySelectorAll('.android-link.mdl-typography--font-regular mdl-typography--text-uppercase')[0]
+var androidWear = document.querySelector('.android-link.mdl-typography--font-regular mdl-typography--text-uppercase')
 
 androidWear.addEventListener("click", function(){
 
