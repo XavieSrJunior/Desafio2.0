@@ -7,7 +7,6 @@ var ednona = document.querySelector(".mdl-navigation__link.mdl-typography--text-
 ednona.addEventListener("click", function(){
 
 	window.dataLayer = window.dataLayer || [];
-	//esse código preenche o dataLayer com os valores descritos no objeto//
 	window.dataLayer.push({
 	  'event': 'generic-event',
 	  'eventCategory': 'android:header',
@@ -22,7 +21,6 @@ var tablets = document.querySelectorAll('.mdl-navigation__link.mdl-typography--t
 tablets.addEventListener("click", function(){
 
 	window.dataLayer = window.dataLayer || [];
-	//esse código preenche o dataLayer com os valores descritos no objeto//
 	window.dataLayer.push({
 	  'event': 'generic-event',
 	  'eventCategory': 'android:header',
@@ -37,7 +35,6 @@ var wear = document.querySelectorAll('.mdl-navigation__link.mdl-typography--text
 wear.addEventListener("click", function(){
 
 	window.dataLayer = window.dataLayer || [];
-	//esse código preenche o dataLayer com os valores descritos no objeto//
 	window.dataLayer.push({
 	  'event': 'generic-event',
 	  'eventCategory': 'android:header',
@@ -52,7 +49,6 @@ var tv = document.querySelectorAll('.mdl-navigation__link.mdl-typography--text-u
 tv.addEventListener("click", function(){
 
 	window.dataLayer = window.dataLayer || [];
-	//esse código preenche o dataLayer com os valores descritos no objeto//
 	window.dataLayer.push({
 	  'event': 'generic-event',
 	  'eventCategory': 'android:header',
@@ -67,7 +63,6 @@ var auto = document.querySelectorAll('.mdl-navigation__link.mdl-typography--text
 auto.addEventListener("click", function(){
 
 	window.dataLayer = window.dataLayer || [];
-	//esse código preenche o dataLayer com os valores descritos no objeto//
 	window.dataLayer.push({
 	  'event': 'generic-event',
 	  'eventCategory': 'android:header',
@@ -82,7 +77,6 @@ var one = document.querySelectorAll('.mdl-navigation__link.mdl-typography--text-
 one.addEventListener("click", function(){
 
 	window.dataLayer = window.dataLayer || [];
-	//esse código preenche o dataLayer com os valores descritos no objeto//
 	window.dataLayer.push({
 	  'event': 'generic-event',
 	  'eventCategory': 'android:header',
@@ -97,7 +91,6 @@ var play = document.querySelectorAll('.mdl-navigation__link.mdl-typography--text
 play.addEventListener("click", function(){
 
 	window.dataLayer = window.dataLayer || [];
-	//esse código preenche o dataLayer com os valores descritos no objeto//
 	window.dataLayer.push({
 	  'event': 'generic-event',
 	  'eventCategory': 'android:header',
