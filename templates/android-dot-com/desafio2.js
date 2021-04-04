@@ -117,6 +117,7 @@ androidWear.addEventListener("click", function(){
 
 var phones = document.querySelector('.android-phone.android-screen');
 
+
 phones.addEventListener("click", function(){
 
 	window.dataLayer = window.dataLayer || [];
@@ -126,4 +127,4 @@ phones.addEventListener("click", function(){
 		'eventAction': 'clique:banner',
 		'eventLabel': 'phones'
 	});
-})
+});
