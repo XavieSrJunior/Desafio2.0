@@ -1,25 +1,24 @@
-var be_toghether = document.querySelector(".logo-font.android-create-character")  
+var be_together = document.querySelector("#imagem");  
 
-be_toghether.addEventListener("click", function(){
+be_together.addEventListener("click", function(){
 
 	window.dataLayer = window.dataLayer || [];
 	window.dataLayer.push({
 		'event': 'generic-event',
-		'eventCategory': 'android:be_toghether_not_the_same',
+		'eventCategory': 'android:be_together_not_the_same',
 		'eventAction': 'clique:link',
 		'eventLabel': 'create_your_android_character'
 	});
 
 });
 
+//--fim da sessão be_together_not_the_same--//
 
-
-
-// estou substituindo a classe original pela variável Ednona para facilitar a visualização e implementação//
+//--substituindo a classe original pela variável Ednona para facilitar a visualização e implementação--//
 var ednona = document.querySelector(".mdl-navigation__link.mdl-typography--text-uppercase")  
 
 
-//criando um escutador de eventos que é acionado quando a variável Ednona recebe um click//
+//--criando um escutador de eventos que é acionado quando a variável Ednona recebe um click--//
 ednona.addEventListener("click", function(){
 
 	window.dataLayer = window.dataLayer || [];
