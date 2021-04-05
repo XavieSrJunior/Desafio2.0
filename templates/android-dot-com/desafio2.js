@@ -217,7 +217,7 @@ customise.addEventListener("click", function(){
 
 //--final da sessão customized_for_you--//
 
-var get_going = document.querySelector(".android-link.mdl-button.mdl-js-button mdl-typography--text-uppercase");
+var get_going = document.querySelectorAll('.mdl-card__actions')[0]
 
 get_going.addEventListener("click", function(){
 
@@ -230,7 +230,7 @@ get_going.addEventListener("click", function(){
 	});
 });
 
-var create = document.querySelector(".android-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase");
+var create = document.querySelector(".mdl-card__actions")[1];
 
 create.addEventListener("click", function(){
 
@@ -243,7 +243,7 @@ create.addEventListener("click", function(){
 	});
 });
 
-var get_a_clean = document.querySelector(".android-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase");
+var get_a_clean = document.querySelector(".android-link.mdl-button mdl-js-button.mdl-typography--text-uppercase")[2];
 
 get_a_clean.addEventListener("click", function(){
 
@@ -252,11 +252,11 @@ get_a_clean.addEventListener("click", function(){
 		'event': 'generic-event',
 		'eventCategory': 'android:more_from_android',
 		'eventAction': 'clique:card',
-		'eventLabel': 'get_a_clean_customisable_home_screen'
+		'eventLabel': 'get_going_on_android'
 	});
 });
 
-var millions = document.querySelector(".android-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase");
+var millions = document.querySelector(".android-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase")[3];
 
 millions.addEventListener("click", function(){
 
@@ -268,20 +268,3 @@ millions.addEventListener("click", function(){
 		'eventLabel': 'millions_to_choose_from'
 	});
 });
-
-var millions1 = document.querySelector(".android-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase");
-
-millions1.addEventListener("click", function(){
-
-	window.dataLayer = window.dataLayer || [];
-	window.dataLayer.push({
-		'event': 'generic-event',
-		'eventCategory': 'android:more_from_android',
-		'eventAction': 'clique:card',
-		'eventLabel': 'millions_to_choose_from'
-	});
-});
-
-//--fim da sessão more_from-android--//
-
-
