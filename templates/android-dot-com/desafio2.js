@@ -284,7 +284,7 @@ versions.addEventListener("click", function(){
 	});
 });
 
-var for_developers = document.querySelector(".android-link.android-link-menu.mdl-typography--font-light")[1];
+var for_developers = document.querySelectorAll(".android-link.android-link-menu.mdl-typography--font-light")[1];
 
 for_developers.addEventListener("click", function(){
 
@@ -338,3 +338,4 @@ view_source.addEventListener("click", function(){
 	});
 });
 
+// fim dos comits //
