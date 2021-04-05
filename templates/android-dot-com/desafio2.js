@@ -1,3 +1,19 @@
+var be_toghether = document.querySelector(".logo-font.android-create-character")  
+
+be_toghether.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:be_toghether_not_the_same',
+		'eventAction': 'clique:link',
+		'eventLabel': 'create_your_android_character'
+	});
+
+});
+
+
+
 
 // estou substituindo a classe original pela variável Ednona para facilitar a visualização e implementação//
 var ednona = document.querySelector(".mdl-navigation__link.mdl-typography--text-uppercase")  
