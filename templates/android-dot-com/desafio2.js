@@ -230,7 +230,7 @@ get_going.addEventListener("click", function(){
 	});
 });
 
-var create = document.querySelectoraAll(".mdl-card__actions")[1];
+var create = document.querySelectorAll(".mdl-card__actions")[1];
 
 create.addEventListener("click", function(){
 
@@ -243,7 +243,7 @@ create.addEventListener("click", function(){
 	});
 });
 
-var get_a_clean = document.querySelectoraAll(".android-link.mdl-button mdl-js-button.mdl-typography--text-uppercase")[2];
+var get_a_clean = document.querySelectorAll(".mdl-card__actions")[2];
 
 get_a_clean.addEventListener("click", function(){
 
@@ -256,7 +256,7 @@ get_a_clean.addEventListener("click", function(){
 	});
 });
 
-var millions = document.querySelectorAll(".android-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase")[3];
+var millions = document.querySelectorAll(".mdl-card__actions")[3];
 
 millions.addEventListener("click", function(){
 
