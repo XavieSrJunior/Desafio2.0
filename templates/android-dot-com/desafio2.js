@@ -269,9 +269,9 @@ millions.addEventListener("click", function(){
 	});
 });
 
-var millions = document.querySelector(".android-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase");
+var millions1 = document.querySelector(".android-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase");
 
-millions.addEventListener("click", function(){
+millions1.addEventListener("click", function(){
 
 	window.dataLayer = window.dataLayer || [];
 	window.dataLayer.push({
