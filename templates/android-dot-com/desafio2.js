@@ -271,7 +271,7 @@ millions.addEventListener("click", function(){
 
 //-- fim da sessão more_from_android --//
 
-var versions = document.querySelectorAll(".android-link.android-link-menu.mdl-typography--font-light")[0];
+var versions = document.querySelector("#version-dropdown");
 
 versions.addEventListener("click", function(){
 
@@ -284,7 +284,7 @@ versions.addEventListener("click", function(){
 	});
 });
 
-var for_developers = document.querySelectorAll(".android-link.android-link-menu.mdl-typography--font-light")[1];
+var for_developers = document.querySelector("#developers-dropdown");
 
 for_developers.addEventListener("click", function(){
 
@@ -297,9 +297,9 @@ for_developers.addEventListener("click", function(){
 	});
 });
 
-var blog1 = document.querySelectorAll(".android-link.mdl-typography--font-light")[0];
+var blog = document.querySelectorAll(".android-link.mdl-typography--font-light")[0];
 
-blog1.addEventListener("click", function(){
+blog.addEventListener("click", function(){
 
 	window.dataLayer = window.dataLayer || [];
 	window.dataLayer.push({
