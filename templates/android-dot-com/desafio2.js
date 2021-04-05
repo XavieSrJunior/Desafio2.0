@@ -252,7 +252,7 @@ get_a_clean.addEventListener("click", function(){
 		'event': 'generic-event',
 		'eventCategory': 'android:more_from_android',
 		'eventAction': 'clique:card',
-		'eventLabel': 'get_going_on_android'
+		'eventLabel': 'get_a_clean_customisable_home_screen'
 	});
 });
 
