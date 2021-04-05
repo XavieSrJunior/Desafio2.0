@@ -187,16 +187,16 @@ see_whats_new.addEventListener("click", function(){
 
 //--final da sessão see_what's_new_in_the_google_built_in--//
 
-var customize = document.querySelector('.android-link.mdl-typography--font-light');
+var customise = document.querySelector('.android-link.mdl-typography--font-light');
 
-customize.addEventListener("click", function(){
+customise.addEventListener("click", function(){
 
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic-event',
-    'eventCategory': 'andorid:customized_by_you_for_you',
+    'eventCategory': 'andorid:customised_by_you_for_you',
     'eventAction':  'clique:link',
-    'eventLabel': 'customize_your_phone'
+    'eventLabel': 'customise_your_phone'
   })
 });
 
