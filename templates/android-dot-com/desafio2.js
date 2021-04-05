@@ -191,13 +191,13 @@ var customise = document.querySelector('.android-link.mdl-typography--font-light
 
 customise.addEventListener("click", function(){
 
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({
-    'event': 'generic-event',
-    'eventCategory': 'andorid:customised_by_you_for_you',
-    'eventAction':  'clique:link',
-    'eventLabel': 'customise_your_phone'
-  })
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'andorid:customised_by_you_for_you',
+		'eventAction':  'clique:link',
+		'eventLabel': 'customise_your_phone'
+	});
 });
 
 //--final da sessão customized_for_you--//
