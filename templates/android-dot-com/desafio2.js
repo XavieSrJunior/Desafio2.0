@@ -297,9 +297,9 @@ for_developers.addEventListener("click", function(){
 	});
 });
 
-var blog = document.querySelector(".android-link mdl-typography--font-light");
+var blog1 = document.querySelector(".android-link.mdl-typography--font-light");
 
-blog.addEventListener("click", function(){
+blog1.addEventListener("click", function(){
 
 	window.dataLayer = window.dataLayer || [];
 	window.dataLayer.push({
@@ -322,3 +322,19 @@ privacy_policy.addEventListener("click", function(){
 		'eventLabel': 'privacy_policy'
 	});
 });
+
+//-- fim da sessão menu_footer --//
+
+var view_source = document.querySelector(".mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-color--accent.mdl-color-text--accent-contrast");
+
+view_source.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:footer',
+		'eventAction': 'clique:link',
+		'eventLabel': 'view_source'
+	});
+});
+
