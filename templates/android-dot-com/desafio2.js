@@ -297,7 +297,7 @@ for_developers.addEventListener("click", function(){
 	});
 });
 
-var blog = document.querySelectorAll(".android-link.mdl-typography--font-light")[0];
+var blog = document.querySelector("#blog");
 
 blog.addEventListener("click", function(){
 
@@ -310,7 +310,7 @@ blog.addEventListener("click", function(){
 	});
 });
 
-var privacy_policy = document.querySelectorAll(".android-link.mdl-typography--font-light")[1];
+var privacy_policy = document.querySelector("#privacy");
 
 privacy_policy.addEventListener("click", function(){
 
