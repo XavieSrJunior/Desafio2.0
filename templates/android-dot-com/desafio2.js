@@ -271,7 +271,7 @@ millions.addEventListener("click", function(){
 
 //-- fim da sessão more_from_android --//
 
-var versions = document.querySelector(".android-link.android-link-menu.mdl-typography--font-light");
+var versions = document.querySelectorAll(".android-link.android-link-menu.mdl-typography--font-light")[0];
 
 versions.addEventListener("click", function(){
 
@@ -284,7 +284,7 @@ versions.addEventListener("click", function(){
 	});
 });
 
-var for_developers = document.querySelector(".android-link.android-link-menu.mdl-typography--font-light");
+var for_developers = document.querySelector(".android-link.android-link-menu.mdl-typography--font-light")[1];
 
 for_developers.addEventListener("click", function(){
 
@@ -297,7 +297,7 @@ for_developers.addEventListener("click", function(){
 	});
 });
 
-var blog1 = document.querySelector(".android-link.mdl-typography--font-light");
+var blog1 = document.querySelectorAll(".android-link.mdl-typography--font-light")[0];
 
 blog1.addEventListener("click", function(){
 
@@ -310,7 +310,7 @@ blog1.addEventListener("click", function(){
 	});
 });
 
-var privacy_policy = document.querySelector(".android-link.mdl-typography--font-light");
+var privacy_policy = document.querySelectorAll(".android-link.mdl-typography--font-light")[1];
 
 privacy_policy.addEventListener("click", function(){
 
