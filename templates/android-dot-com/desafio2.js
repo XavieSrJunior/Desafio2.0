@@ -217,3 +217,71 @@ customise.addEventListener("click", function(){
 
 //--final da sessão customized_for_you--//
 
+var get_going = document.querySelector(".android-link.mdl-button.mdl-js-button mdl-typography--text-uppercase");
+
+get_going.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:more_from_android',
+		'eventAction': 'clique:card',
+		'eventLabel': 'get_going_on_android'
+	});
+});
+
+var create = document.querySelector(".android-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase");
+
+create.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:more_from_android',
+		'eventAction':  'clique:card',
+		'eventLabel': 'create_your_own_android_character'
+	});
+});
+
+var get_a_clean = document.querySelector(".android-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase");
+
+get_a_clean.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:more_from_android',
+		'eventAction': 'clique:card',
+		'eventLabel': 'get_a_clean_customisable_home_screen'
+	});
+});
+
+var millions = document.querySelector(".android-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase");
+
+millions.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:more_from_android',
+		'eventAction': 'clique:card',
+		'eventLabel': 'millions_to_choose_from'
+	});
+});
+
+var millions = document.querySelector(".android-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase");
+
+millions.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:more_from_android',
+		'eventAction': 'clique:card',
+		'eventLabel': 'millions_to_choose_from'
+	});
+});
+
+//--fim da sessão more_from-android--//
+
+
