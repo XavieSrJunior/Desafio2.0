@@ -131,7 +131,7 @@ search.addEventListener("click", function(){
 
 var botao_opcoes = document.querySelector(".android-more-button.mdl-button.mdl-js-button.mdl-button--icon.mdl-js-ripple-effect");  
 
-search.addEventListener("click", function(){
+botao_opcoes.addEventListener("click", function(){
 
 	window.dataLayer = window.dataLayer || [];
 	window.dataLayer.push({
