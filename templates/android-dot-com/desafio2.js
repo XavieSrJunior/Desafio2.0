@@ -380,6 +380,19 @@ privacy_policy.addEventListener("click", function(){
 	});
 });
 
+var back_to_top = document.querySelector(".mdl-mega-footer--right-section");
+
+back_to_top.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:footer',
+		'eventAction': 'clique:button',
+		'eventLabel': 'back_to_top'
+	});
+});
+
 //-- fim da sessão menu_footer --//
 
 var view_source = document.querySelector(".mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-color--accent.mdl-color-text--accent-contrast");
