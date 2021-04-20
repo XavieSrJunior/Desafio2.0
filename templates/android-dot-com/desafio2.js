@@ -12,20 +12,6 @@ be_together.addEventListener("click", function(){
 
 });
 
-var search = document.querySelector(".mdl-button.mdl-js-button.mdl-button--icon");  
-
-search.addEventListener("click", function(){
-
-	window.dataLayer = window.dataLayer || [];
-	window.dataLayer.push({
-		'event': 'generic-event',
-		'eventCategory': 'android:be_together_not_the_same',
-		'eventAction': 'clique:link',
-		'eventLabel': 'search'
-	});
-
-});
-
 //--fim da sessão be_together_not_the_same--//
 
 //--substituindo a classe original pela variável Ednona para facilitar a visualização e implementação--//
@@ -125,6 +111,20 @@ play.addEventListener("click", function(){
 	  'eventCategory': 'android:header',
 	  'eventAction': 'clique:header:menu',
 	  'eventLabel': 'play'
+	});
+
+});
+
+var search = document.querySelector(".mdl-button.mdl-js-button.mdl-button--icon");  
+
+search.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:header',
+		'eventAction': 'clique:header:menu',
+		'eventLabel': 'search'
 	});
 
 });
