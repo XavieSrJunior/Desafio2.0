@@ -12,6 +12,21 @@ be_together.addEventListener("click", function(){
 
 });
 
+var scroll_button = document.querySelector(".android-fab.mdl-button.mdl-button--colored.mdl-js-button.mdl-button--fab.mdl-js-ripple-effect");  
+
+scroll_button.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:be_together_not_the_same',
+		'eventAction': 'clique:button',
+		'eventLabel': 'scroll-button'
+	});
+
+});
+
+
 //--fim da sessão be_together_not_the_same--//
 
 //--substituindo a classe original pela variável Ednona para facilitar a visualização e implementação--//
@@ -224,7 +239,7 @@ see_whats_new.addEventListener("click", function(){
 	window.dataLayer.push({
 		'event': 'generic-event',
 		'eventCategory': 'andoird:the_best_of_google_built_in:the_best_of_google_built_in',
-		'eventAction': 'clique:banner',
+		'eventAction': 'clique:link',
 		'eventLabel': 'see_whats_new_in_the_play_store'
 	});
 });
@@ -295,6 +310,19 @@ millions.addEventListener("click", function(){
 		'eventCategory': 'android:more_from_android',
 		'eventAction': 'clique:card',
 		'eventLabel': 'millions_to_choose_from'
+	});
+});
+
+var back_to_top = document.querySelector(".mdl-mega-footer--right-section");
+
+back_to_top.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:more_from_android',
+		'eventAction': 'clique:button',
+		'eventLabel': 'back_to_top'
 	});
 });
 
