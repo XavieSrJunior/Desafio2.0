@@ -129,6 +129,21 @@ search.addEventListener("click", function(){
 
 });
 
+var botao_opcoes = document.querySelector(".android-more-button.mdl-button.mdl-js-button.mdl-button--icon.mdl-js-ripple-effect");  
+
+search.addEventListener("click", function(){
+
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'event': 'generic-event',
+		'eventCategory': 'android:header',
+		'eventAction': 'clique:header:menu',
+		'eventLabel': 'botao_opcoes'
+	});
+
+});
+
+
 //--final do tageamento do campo header--//
 
 var androidWear = document.querySelector('.android-wear.android-screen')
