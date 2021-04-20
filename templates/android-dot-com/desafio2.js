@@ -313,18 +313,6 @@ millions.addEventListener("click", function(){
 	});
 });
 
-var back_to_top = document.querySelector(".mdl-mega-footer--right-section");
-
-back_to_top.addEventListener("click", function(){
-
-	window.dataLayer = window.dataLayer || [];
-	window.dataLayer.push({
-		'event': 'generic-event',
-		'eventCategory': 'android:more_from_android',
-		'eventAction': 'clique:button',
-		'eventLabel': 'back_to_top'
-	});
-});
 
 //-- fim da sessão more_from_android --//
 
@@ -388,7 +376,7 @@ back_to_top.addEventListener("click", function(){
 	window.dataLayer.push({
 		'event': 'generic-event',
 		'eventCategory': 'android:footer',
-		'eventAction': 'clique:button',
+		'eventAction': 'clique:link',
 		'eventLabel': 'back_to_top'
 	});
 });
